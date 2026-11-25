@@ -1,0 +1,24 @@
+# Local runtime and archived data
+.venv/
+data/
+logs/
+__pycache__/
+*.py[cod]
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+rollout-*.jsonl
+!demo/rollout-demo.jsonl
+
+# Model artifacts and local credentials
+*.onnx
+*.safetensors
+*.gguf
+*.pt
+tokenizer.json
+.env
+.env.*
+*.zip
